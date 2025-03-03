@@ -32,7 +32,7 @@ export default function Home() {
               <p className="mt-8 text-gray-400 max-w-2xl">
               Full-stack developer driven by a passion for building efficient, secure applications that stand the test of time. My expertise spans the entire web development stack, where I blend creative front-end solutions with robust back-end architecture.
 I specialize in crafting scalable systems that grow alongside business needs while maintaining optimal performance. My approach prioritizes clean code, security-first design, and performance optimization at every step of the development process.
-Constantly pushing technical boundaries, I transform complex challenges into elegant solutions that make a difference in today's digital landscape.
+Constantly pushing technical boundaries, I transform complex challenges into elegant solutions that make a difference in todays digital landscape.
               </p>
             </div>
           </div>
