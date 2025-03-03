@@ -44,10 +44,10 @@ Constantly pushing technical boundaries, I transform complex challenges into ele
         </section>
 
         <section id="contact" className="py-20 my-20 flex flex-col items-center justify-center">
-          <h2 className="text-4xl font-bold mb-12 text-center">CONTACTO</h2>
+          <h2 className="text-4xl font-bold mb-12 text-center">CONTACT</h2>
           <div className="max-w-2xl mx-auto w-full bg-gray-900/50 p-10 rounded-lg border border-gray-800">
             <p className="text-gray-300 mb-8 text-center text-lg">
-              ¿Interesado en trabajar juntos? Contáctame a través de los siguientes medios:
+            Interested in working together? Contact me through the following means:
             </p>
             <div className="flex flex-col items-center gap-6">
               <p className="text-xl">
