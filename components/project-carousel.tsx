@@ -9,6 +9,8 @@ import inventoryImage from "@/public/inventory.jpeg";
 import btcImage from "@/public/BTC-tracker.jpeg";
 import portfolioImage from "@/public/portfolio.jpeg";
 import messageImage from "@/public/messages.jpeg";
+import hotelImage from "@/public/lasolas-image.jpeg";
+import crmImage from "@/public/crmweb.jpeg"
 
 // Datos de ejemplo para los proyectos
 const projects = [
@@ -49,6 +51,24 @@ const projects = [
     technologies: ["Angular", "NestJS", "PostgreSQL", "Sequelize"],
     githubUrl: "https://github.com/Frynox/tablero-mensajes-nest-angular",
     liveUrl: "https://github.com/Frynox/tablero-mensajes-nest-angular",
+  },
+  {
+    id: 5,
+    title: "Hotel Upgrades",
+    description: "Hotel UI upgrades and backend modifications.",
+    image: hotelImage,
+    technologies: ["Next.js", "NestJS", "Nodemailer", "Zoho Mail", "Railway"],
+    githubUrl: "https://www.lasolaslecheria.com",
+    liveUrl: "https://www.lasolaslecheria.com",
+  },
+  {
+    id: 6,
+    title: "CRM Web",
+    description: "A CRM for user management and message exchange with OpenAI + Whatsapp.",
+    image: crmImage,
+    technologies: ["Express.js", "Node.js", "PostgreSQL", "Docker", "Kafka", "whatsapp-web.js"],
+    githubUrl: "https://github.com/Frynox/",
+    liveUrl: "https://github.com/Frynox/",
   },
 ]
 
