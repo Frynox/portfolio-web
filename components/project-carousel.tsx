@@ -93,8 +93,8 @@ export function ProjectCarousel() {
           {projects.map((project) => (
             <Card key={project.id} className="min-w-full bg-gray-900 border-gray-800">
               <CardContent className="p-0">
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div className="relative h-[300px] md:h-[400px]">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+                  <div className="relative h-[200px] sm:h-[250px] md:h-[400px]">
                     <Image
                       src={project.image || "/placeholder.svg"}
                       alt={project.title}
@@ -102,38 +102,38 @@ export function ProjectCarousel() {
                       className="object-cover"
                     />
                   </div>
-                  <div className="p-6 flex flex-col justify-between">
+                  <div className="p-4 sm:p-6 flex flex-col justify-between">
                     <div>
-                      <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
-                      <p className="text-gray-400 mb-4">{project.description}</p>
-                      <div className="flex flex-wrap gap-2 mb-6">
+                      <h3 className="text-xl sm:text-2xl font-bold mb-2">{project.title}</h3>
+                      <p className="text-gray-400 mb-3 sm:mb-4 text-sm sm:text-base">{project.description}</p>
+                      <div className="flex flex-wrap gap-1 sm:gap-2 mb-4 sm:mb-6">
                         {project.technologies.map((tech) => (
-                          <span key={tech} className="bg-gray-800 text-xs px-3 py-1 rounded-full">
+                          <span key={tech} className="bg-gray-800 text-xs px-2 sm:px-3 py-1 rounded-full">
                             {tech}
                           </span>
                         ))}
                       </div>
                     </div>
-                    <div className="flex gap-4">
-                      <Button variant="outline" size="sm" asChild>
+                    <div className="flex gap-2 sm:gap-4">
+                      <Button variant="outline" size="sm" asChild className="text-xs sm:text-sm">
                         <a
                           href={project.githubUrl}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="flex items-center gap-2"
+                          className="flex items-center gap-1 sm:gap-2"
                         >
-                          <Github size={16} />
+                          <Github size={14} className="sm:size-16" />
                           Código
                         </a>
                       </Button>
-                      <Button variant="outline" size="sm" asChild>
+                      <Button variant="outline" size="sm" asChild className="text-xs sm:text-sm">
                         <a
                           href={project.liveUrl}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="flex items-center gap-2"
+                          className="flex items-center gap-1 sm:gap-2"
                         >
-                          <ExternalLink size={16} />
+                          <ExternalLink size={14} className="sm:size-16" />
                           Demo
                         </a>
                       </Button>
@@ -149,26 +149,26 @@ export function ProjectCarousel() {
       <Button
         variant="outline"
         size="icon"
-        className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 border-gray-700 hover:bg-black/80"
+        className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 bg-black/50 border-gray-700 hover:bg-black/80 h-8 w-8 sm:h-10 sm:w-10"
         onClick={prevSlide}
       >
-        <ChevronLeft className="h-4 w-4" />
+        <ChevronLeft className="h-3 w-3 sm:h-4 sm:w-4" />
       </Button>
 
       <Button
         variant="outline"
         size="icon"
-        className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 border-gray-700 hover:bg-black/80"
+        className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 bg-black/50 border-gray-700 hover:bg-black/80 h-8 w-8 sm:h-10 sm:w-10"
         onClick={nextSlide}
       >
-        <ChevronRight className="h-4 w-4" />
+        <ChevronRight className="h-3 w-3 sm:h-4 sm:w-4" />
       </Button>
 
-      <div className="flex justify-center mt-4 gap-2">
+      <div className="flex justify-center mt-3 sm:mt-4 gap-1 sm:gap-2">
         {projects.map((_, index) => (
           <button
             key={index}
-            className={`w-2 h-2 rounded-full ${index === currentIndex ? "bg-white" : "bg-gray-600"}`}
+            className={`w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full ${index === currentIndex ? "bg-white" : "bg-gray-600"}`}
             onClick={() => setCurrentIndex(index)}
           />
         ))}
@@ -176,4 +176,3 @@ export function ProjectCarousel() {
     </div>
   )
 }
-
