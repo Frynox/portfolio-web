@@ -11,8 +11,13 @@ export default function Home() {
       <div className="container mx-auto px-4 relative z-10">
         <header className="py-6">
           <div className="flex justify-between items-center">
-            <Link href="/" className="text-xl font-bold">
+            <Link href="/" className="text-2xl font-bold">
               PORTAFOLIO
+            </Link>
+          </div>
+          <div className="flex justify-between items-center">
+            <Link href="/" className="text-l font-bold mt-1">
+              NEIL MONTANO
             </Link>
           </div>
         </header>
@@ -24,10 +29,7 @@ export default function Home() {
               <br />
               <span className="text-gray-500">DEVELOPER</span>
             </h1>
-            <div className="mt-4 text-sm text-gray-400">
-              <p>Neil Montaño</p>
-            </div>
-            <div className="mt-16">
+            <div className="mt-10">
               <p className="text-gray-400 max-w-2xl">  SCALABLE WEB SOLUTIONS.</p>
               <p className="mt-8 text-gray-400 max-w-2xl">
               Full-stack developer driven by a passion for building efficient, secure applications that stand the test of time. My expertise spans the entire web development stack, where I blend creative front-end solutions with robust back-end architecture.
