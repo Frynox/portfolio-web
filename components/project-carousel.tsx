@@ -17,7 +17,7 @@ import dashboardImage from "@/public/Dashboard.jpg";
 const projects = [
   {
     id: 6,
-    title: "CRM Web",
+    title: "Omnichannel customer service automation platform with AI. - CRM",
     description:
       "A CRM for user management and message exchange with OpenAI + Whatsapp. Made with Microservices Architecture.",
     image: crmImage,
@@ -36,7 +36,7 @@ const projects = [
   },
   {
     id: 7,
-    title: "CRM Web - Dashboard",
+    title: "Omnichannel customer service automation platform with AI. - Dashboard",
     description:
       "Dashboard for real-time monitoring and analysis.Its scalable architecture facilitates business growth integration and evaluation.",
     image: dashboardImage,
