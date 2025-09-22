@@ -33,9 +33,7 @@ export default function Home() {
             <div className="mt-6 sm:mt-10">
               <p className="text-gray-400 max-w-2xl text-sm sm:text-base">SCALABLE WEB SOLUTIONS.</p>
               <p className="mt-4 sm:mt-8 text-gray-400 max-w-2xl text-sm sm:text-base">
-                Full-stack developer driven by a passion for building efficient, secure applications that stand the test of time. My expertise spans the entire web development stack, where I blend creative front-end solutions with robust back-end architecture.
-                I specialize in crafting scalable systems that grow alongside business needs while maintaining optimal performance. My approach prioritizes clean code, security-first design, and performance optimization at every step of the development process.
-                Constantly pushing technical boundaries, I transform complex challenges into elegant solutions that make a difference in todays digital landscape.
+                Full-Stack Developer with over 3 years of experience in the JavaScript ecosystem (React, Node.js, NestJS). I combine deep technical knowledge with a strong product vision, specializing in leading the complete technical lifecycle of SaaS applications, from architecture and API integration (OpenAI) to ensuring their stability and growth.
               </p>
             </div>
           </div>
